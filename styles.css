@@ -65,7 +65,7 @@ footer {
    cursor: pointer;
    text-align: center;
 
-   text-align: center;
+   outline-style: none;
    margin-top: 20px;
 }
 
