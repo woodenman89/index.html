@@ -18,6 +18,3 @@ function buttonAnimaiton() {
    }, 100);
 }
 
-setTimeout(function Refresh(){
-     location.reload();
-    },3000);
