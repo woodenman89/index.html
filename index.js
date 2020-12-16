@@ -11,3 +11,13 @@ function pictureChange() {
     document.querySelector("h1").innerHTML = "Not Today";
   }
 }
+function buttonAnimaiton() {
+   document.querySelector(".btn").classList.add("pressed");
+   setTimeout(function(){
+      document.querySelector(".btn").classList.remove("pressed");
+   }, 100);
+}
+
+setTimeout(function Refresh(){
+     location.reload();
+    },3000);
